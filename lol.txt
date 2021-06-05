@@ -1,0 +1,18 @@
+<form method="POST">
+        {% csrf_token %}
+      <select name="selectedcountry">
+        {% for country in mylist%}
+        <option>{{country}}</option>
+        {% endfor %}
+      </select>
+      <input type="submit" name="">
+    </form>
+    
+    <div class="center">
+    <p>new :{{new}}</p>
+    <p>new :{{active}}</p>
+    <p>new :{{critical}}</p>
+    <p>new :{{recoverd}}</p>
+    <p>new :{{total}}</p>
+    <p>new :{{deaths}}</p>
+    </div>

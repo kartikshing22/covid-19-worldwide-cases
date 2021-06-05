@@ -1,0 +1,18 @@
+
+.kartik{
+    color: red;
+}
+
+.covid{
+    text-align: center;
+}
+
+.StateDropdown .state-name {
+    background: rgba(226,48,40,.06274509803921569);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: .25rem;
+    color: #e23028;
+    max-width: 20%;
+    
+}
